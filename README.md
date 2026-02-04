@@ -291,6 +291,7 @@ Following vacuum platforms are supported out of the box at this moment:
 | `menu_id`           | string  | no       | -           | Adds this icon to the menu with given ID                                                                                                                                  |
 | `label`             | string  | no       | -           | Label that should be displayed in the menu                                                                                                                                |
 | `variables`         | object  | no       | -           | Variables that should be passed to to service calls                                                                                                                       |
+| `remove`            | boolean | no       | `false`     | Allows to remove specific pre-defined icon (when combined with `icon_id` and `replace_config: true`                                                                       |
 
 #### Menu icon additional options
 
@@ -353,6 +354,7 @@ Examples:
 | `order`             | number  | no       | -           | Used to sort the tiles                                                                                                                                                   |
 | `replace_config`    | boolean | no       | `false`     | Marks that this tile should override the config of an already existing tile with the same `tile_id`                                                                      |
 | `variables`         | object  | no       | -           | Variables that should be passed to to service calls                                                                                                                      |
+| `remove`            | boolean | no       | `false`     | Allows to remove specific pre-defined tile (when combined with `icon_id` and `replace_config: true`                                                                      |
 
 ### Condition options
 

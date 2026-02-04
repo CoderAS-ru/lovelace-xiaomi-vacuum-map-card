@@ -71,7 +71,7 @@
                 "name": "map_mode.vacuum_goto_predefined",
                 "icon": "mdi:map-marker",
                 "max_selections": 1,
-                "selection_type": "ROOM",
+                "selection_type": "PREDEFINED_POINT",
                 "repeats_type": "NONE",
                 "service_call_schema": {
                     "service": "mqtt.publish",
@@ -85,6 +85,12 @@
     },
     "tiles": {
         "from_sensors": [
+            {
+                "tile_id": "battery_level",
+                "unique_id_regex": "_sensor_battery_level",
+                "label": "tile.battery_level.label",
+                "unit": "%"
+            },
             {
                 "tile_id": "filter_left",
                 "unique_id_regex": "_sensor_ConsumableMonitoringCapability_filter_main",
