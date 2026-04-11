@@ -1,0 +1,17 @@
+{
+  "name": "Neatsvor",
+  "entity_type": "vacuum",
+  "domain": "neatsvor",
+  "service": "neatsvor.zone_clean",
+  "service_data": {
+    "entity_id": "[[entity_id]]",
+    "zones": "[[zones]]"
+  },
+  "map_source": {
+    "camera": "[[camera_entity]]"
+  },
+  "supported_features": {
+    "ZONE": true,
+    "ROOM": true
+  }
+}
