@@ -13,7 +13,6 @@ import * as deebotTemplate from "./platform_templates/DeebotUniverse_Deebot-4-Ho
 import * as tasshackDreameVacuumTemplate from "./platform_templates/Tasshack_dreame-vacuum.json";
 import * as roborockTemplate from "./platform_templates/humbertogontijo_homeassistant-roborock.json";
 import * as roborockCoreTemplate from "./platform_templates/roborock.json";
-
 import * as simpleWyzeTemplate from "./platform_templates/romedtino_simple-wyze-vac.json";
 import * as myneatoTemplate from "./platform_templates/BenjaminPaap_myneato.json";
 import * as setupDecimalTemplate from "./platform_templates/setup_decimal.json";
