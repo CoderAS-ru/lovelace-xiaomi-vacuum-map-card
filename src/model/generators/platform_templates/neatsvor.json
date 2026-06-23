@@ -17,7 +17,7 @@
                         "zones": "[[selection]]"
                     }
                 }
-            },
+            }
         }
     },
     "tiles": {
@@ -67,28 +67,6 @@
         ]
     },
     "icons": [
-        {
-            "type": "menu",
-            "menu_id": "fan_speed",
-            "icon_id": "fan_speed",
-            "unique_id_regex": "fan_speed_",
-            "available_values_attribute": "options",
-            "icon": "mdi:fan",
-            "icon_mapping": {
-                "quiet": "mdi:fan-speed-1",
-                "normal": "mdi:fan-speed-2",
-                "strong": "mdi:fan-speed-3",
-                "max": "mdi:fan-plus"
-            },
-            "tap_action": {
-                "action": "call-service",
-                "service": "select.select_option",
-                "service_data": {
-                    "option": "[[value]]",
-                    "entity_id": "[[entity_id]]"
-                }
-            }
-        },
         {
             "type": "menu",
             "menu_id": "water_box_mode",
